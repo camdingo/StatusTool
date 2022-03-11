@@ -28,7 +28,7 @@ public:
 
 private:
     /// The class used for general cpu query
-    CpuQuery _cpu;
+    CpuQuery _cpuQuery;
 
 };
 

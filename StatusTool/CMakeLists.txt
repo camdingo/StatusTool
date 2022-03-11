@@ -15,6 +15,12 @@ find_package(Boost 1.77.0 COMPONENTS filesystem thread system)
 find_package(Qt5 COMPONENTS Core Widgets REQUIRED)
 
 set ( CXX_SRCS
+	StatusTool.cpp
+	MainWindow.cpp
+	#performance/widgets/ramwidget.cpp
+	#performance/dataQuery/queryresource.cpp
+	#performance/dataQuery/dataquery.cpp
+	#performance/dataQuery/ramdataquery.cpp
 
 )
 

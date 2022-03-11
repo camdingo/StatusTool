@@ -12,13 +12,13 @@ public:
 
     virtual void getData(){}
 
-    void setIndex(int index);
-    void setMulti(bool value);
+    void setIndex(int index) { _index = index; }
+    void setMulti(bool multi) { _multi = multi; }
 
 
 public:
     int _index;
-    int _multi;
+    bool _multi;
 
     /// The cache used to store all the data
     std::vector<std::vector<float> > _cache;

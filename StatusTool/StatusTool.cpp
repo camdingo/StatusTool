@@ -4,6 +4,8 @@
 #include <QPalette>
 #include <QFont>
 
+#include "MainWindow.h"
+
 //Dark Theme
 void setStyle(QApplication* application)
 {
@@ -63,7 +65,9 @@ int main(int argc, char** argv)
 	//  - location of data server (to check for vcids/opgas)
 	//  - 
 	// 
-	//mainWindow->show();
+	//
+	MainWindow *mainWindow = new MainWindow();
+	mainWindow->show();
 
 	setStyle(&app);
 

@@ -191,7 +191,7 @@ private :
 
     /// Attribute holding the start index of the cache
     int _cacheStartIndex;
-    std::vector<float> m_cache;
+    std::vector<float> _cache;
 
 
 };
